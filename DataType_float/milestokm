@@ -1,0 +1,10 @@
+#Example 5: Converting miles to kilometers
+# Objective: Convert distance with a float multiplication factor.
+# Outcome: Prints “Distance in km: 8.05.”
+
+miles=3.0
+km=miles*1.60934
+if km>8 :
+    print("Distance in kilometers :", km)
+else:
+    print("Short Distance.", km)
